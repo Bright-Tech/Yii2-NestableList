@@ -1,0 +1,23 @@
+{
+    "name": "bright-tech/yii2-nestable-list",
+    "description": "Yii2 Nestable List 组件",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","ace-admin"],
+    "license": "GNU GENERAL PUBLIC LICENSE",
+    "authors": [
+        {
+            "name": "BrightTech",
+            "email": "xiao.yanqi@bright-tech.cn"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "~2.0.0",
+        "yiisoft/yii2-bootstrap": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "bright_tech\\yii2\\nestable_list\\": "src/"
+        }
+    }
+}
