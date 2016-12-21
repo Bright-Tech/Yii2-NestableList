@@ -20,7 +20,8 @@ class NestableAsset extends AssetBundle
     ];
     
     public $js = [
-        'js/jquery.bright-nestablelist.js',
+        'js/jquery.nestablelist.js',
+        'js/jquery.bright-nestablelist.js'
     ];
 
     public $depends = [
